@@ -3,9 +3,9 @@ public class Restaurant {
     private Point position;
     private Plat Commande;
 
-    public Restaurant(){
+    public Restaurant(x,y){
         etat=True;
-        position=new Point( (int)Math.random()*nbLignes , (int)Math.random()*nbColonnes) );
+        position=new Point(x,y);
         Commande=plat();
     }
 }
